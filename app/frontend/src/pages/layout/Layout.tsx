@@ -10,7 +10,7 @@ const Layout = () => {
             <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer}>
                     <Link to="/" className={styles.headerTitleContainer}>
-                        <h3 className={styles.headerTitle}>GPT + Enterprise data | Sample</h3>
+                        <h3 className={styles.headerTitle}>Long View GPT + Enterprise data Demo</h3>
                     </Link>
                     <nav>
                         <ul className={styles.headerNavList}>
@@ -25,11 +25,11 @@ const Layout = () => {
                                 </NavLink>
                             </li>
                             <li className={styles.headerNavLeftMargin}>
-                                <a href="https://aka.ms/entgptsearch" target={"_blank"} title="Github repository link">
+                                <a href="https://www.longviewsystems.com/" target={"_blank"} title="Long View">
                                     <img
-                                        src={github}
-                                        alt="Github logo"
-                                        aria-label="Link to github repository"
+                                        src="https://www.longviewsystems.com/wp-content/uploads/2020/07/logo.svg"
+                                        alt="LVS logo"
+                                        aria-label="Link to Long View Systems website"
                                         width="20px"
                                         height="20px"
                                         className={styles.githubLogo}
