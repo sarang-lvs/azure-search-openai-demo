@@ -9,10 +9,10 @@ export type ExampleModel = {
 
 const EXAMPLES: ExampleModel[] = [
     {
-        text: "Can you summarize upcming events at Long View?",
-        value: "Can you summarize upcming events at Long View"
+        text: "Can you summarize upcoming events at Long View?",
+        value: "Can you summarize upcoming events at Long View"
     },
-    { text: "What is DPi60 at Long View?", value: "What is DPi60 at Long View?" },
+    { text: "What is a 'DPi60' at Long View?", value: "What is DPi60 at Long View?" },
     { text: "What is an Employee Resource Group?", value: "What is an Employee Resource Group?" }
 ];
 

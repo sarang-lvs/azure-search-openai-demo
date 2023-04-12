@@ -30,8 +30,8 @@ const Layout = () => {
                                         src="https://www.longviewsystems.com/wp-content/uploads/2020/07/logo.svg"
                                         alt="LVS logo"
                                         aria-label="Link to Long View Systems website"
-                                        width="20px"
-                                        height="20px"
+                                        width="150px"
+                                        height="50px"
                                         className={styles.githubLogo}
                                     />
                                 </a>

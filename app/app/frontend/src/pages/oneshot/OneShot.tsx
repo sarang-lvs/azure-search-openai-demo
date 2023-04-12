@@ -136,7 +136,7 @@ const OneShot = () => {
                 <h1 className={styles.oneshotTitle}>Ask your data</h1>
                 <div className={styles.oneshotQuestionInput}>
                     <QuestionInput
-                        placeholder="Example: Does my plan cover annual eye exams?"
+                        placeholder="Example: Can you tell me about careers at Long View?"
                         disabled={isLoading}
                         onSend={question => makeApiRequest(question)}
                     />
